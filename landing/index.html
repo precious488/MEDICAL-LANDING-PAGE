@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tanducare medical landing page</title>
+  <link rel="stylesheet" href="fontawesome/css/all.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <img src="Images/logo.png" alt="Tanducare" />
+          <div class="logo-nane">Tandu<span>Care</span></div>
+        </div>
+        <ul class="nav-links">
+          <li><a href="">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#departments">Department</a></li>
+          <li><a href="#doctors">Doctors</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#book">Make an appointment</a></li>
+        </ul>
+        <div class="right">
+          <div class="book">
+            <!-- <a href="#book" class="big">Make an appointment</a> -->
+          </div>
+          <div class="mobile-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-content container">
+      <p>Let's make your life happier</p>
+      <h1>Healthy Living</h1>
+      <a href="#book">Book Appointment</a>
+      <a href="">Contact</a>
+    </div>
+  </div>
+
+  <section class="about" id="about">
+    <h1>About us</h1>
+    <div class="about-content container">
+      <div class="acl">
+        <img src="./Images/blog_5.jpg" alt="">
+      </div>
+      <div class="acr">
+        <p>Welcome to Tanducare, a leading healthcare provider dedicated to delivering exceptional patient care. Our
+          mission is to provide comprehensive, compassionate, and innovative healthcare solutions. We strive to create
+          a warm environment, offer personalized care, and empower patients with knowledge and resources.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <h1>Services</h1>
+      <p>Our professional Services</p>
+      <div class="service-cards">
+        <div class="card">
+          <i class="fas fa-notes-medical"></i>
+          <h3>Consultations</h3>
+          <p>Allow users to book online consultations with your clinic's doctors or specialists.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-vial"></i>
+          <h3>Diagnosis</h3>
+          <p>Provide a list of available diagnostic tests, prices, and requirements. Allow users to book test
+            appointments online.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-syringe"></i>
+          <h3>Surgery</h3>
+          <p>Provide information on minor surgical procedures offered by your clinic. Allow users to book appointments
+            online.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="emergency">
+    <div class="container">
+      <div class="emergency-content">
+        <h3>In an emergency? Need help now?</h3>
+        <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, dolore magni hic similique incidunt et
+          saepe aliquid? Iusto, dolorem amet.</P>
+        <a href="#book">Make an appointment</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="departments">
+    <div class="container">
+      <h1>Departments</h1>
+
+      <div class="departmentlist">
+        <p class="departmentname active-department" onclick="tabs('Pediatrice')">Pediatrice</p>
+        <p class="departmentname" onclick="tabs( 'Neurology')">Neurology</p>
+        <p class="departmentname" onclick="tabs('Ophthalmolist')">Ophthalmolist</p>
+        <p class="departmentname" onclick="tabs('Hematology')">Hematology</p>
+      </div>
+
+      <div class="departmentcontent active-content" id="Pediatrice">
+        <img src="./Images/pr.jpg" alt="">
+        <h2>Pediatric Department</h2>
+        <ul>
+          <li>Expert care for infants, children and adolescents.</li>
+          <li>Services: vaccinations, growth monitoring, developmental assessments.</li>
+          <li>Treats common childhood illnesses like asthma, allergies and infections.</li>
+          <li>Our pediatricians are board-certified and experienced.</li>
+        </ul>
+      </div>
+      <div class="departmentcontent" id="Neurology">
+        <img src="./Images/neu.jpg" alt="">
+        <h2>Neurology Department</h2>
+        <ul>
+          <li>Diagnoses and treats brain, spinal cord and nervous system disorders.</li>
+          <li>Services: EEG, EMG, nerve conduction studies and MRI.</li>
+          <li>Treats conditions like epilepsy, Parkinson's disease, multiple sclerosis.</li>
+          <li>Our neurologists are board-certified and up-to-date on the latest treatments.</li>
+        </ul>
+      </div>
+      <div class="departmentcontent" id="Ophthalmolist">
+        <h2>Ophthalmology Department</h2>
+        <ul>
+          <li>Provides comprehensive eye care for adults and children.</li>
+          <li>Services: eye exams, cataract surgery, LASIK and glaucoma treatment.</li>
+          <li>Treats conditions like macular degeneration, diabetic retinopathy.</li>
+          <li>Our ophthalmologists are board-certified and skilled in the latest techniques.</li>
+        </ul>
+      </div>
+      <div class="departmentcontent" id="Hematology">
+        <h2>Hematology Department</h2>
+        <ul>
+          <li>Diagnoses and treats blood disorders like anemia, bleeding disorders.</li>
+          <li>Services: blood transfusions, bone marrow biopsies and chemotherapy.</li>
+          <li>Treats conditions like leukemia, lymphoma and blood cancers.</li>
+          <li>Our hematologists are board-certified and experienced in innovative treatments.</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+  <section class="doctors" id="doctors">
+    <h1>Our Doctors</h1>
+    <div class="doc-contianer container">
+      <div class="box">
+        <img src="./Images/20241211_231551.jpg" alt="">
+
+        <div>
+          <h4>Dr Tandu</h4>
+          <p>Urologist</p>
+        </div>
+      </div>
+      <div class="box">
+        <img src="./Images/doctor_2.jpg" alt="">
+        <div>
+          <h4>Dr John</h4>
+          <p>Dental</p>
+        </div>
+      </div>
+      <div class="box">
+        <img src="./Images/doctor_3.jpg" alt="">
+        <div>
+          <h4>Dr faith</h4>
+          <p>Genaral health</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="Whychooseus-section">
+    <div class="container">
+      <h3>Reasons <br>to choose our services.</h3>
+      <div class="whychooseus">
+        <article>
+          <i class="fas fa-clock"></i>
+          <h4>24/7 Services</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, iusto?</p>
+        </article>
+        <article>
+          <i class="fas fa-award"></i>
+          <h4>Expertise and experience</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, iusto?</p>
+        </article>
+        <article>
+          <i class="fas fa-laugh"></i>
+
+          <h4>Our patients are happy</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, iusto?</p>
+
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="book" id="book">
+    <div class="container">
+      <h1>Make an Appointment</h1>
+      <div class="prof-form">
+        <h4>Book your appointment today with ease</h4>
+        <p>Please fill the form and Submit</p>
+        <form action="" class="Prof-forn-input">
+          <input type="text" placeholder="Enter Your name">
+          <input type="text" placeholder="Phone Number">
+          <input type="text" placeholder="Enter your email">
+          <input type="date" placeholder="date">
+          <input type="time">
+
+          <select id="department">
+            <option value="General Medicine">Select Department</option>
+            <option value="General Medicine">General Medicine</option>
+            <option value="Cardiology">Cardiology</option>
+            <option value="Neurology">Neurology</option>
+            <option value="Orthopedics">Orthopedics</option>
+            <option value="Pediatrics">Pediatrics</option>
+          </select>
+
+          <select id="appointment-type" name="appointment-type">
+            <option value="Appointment type"> Select Appointment Type</option>
+            <option value="New Patient">New Patient</option>
+            <option value="Follow-up">Follow-up</option>
+            <option value="Emergency">Emergency</option>
+          </select>
+          <button class="prof-btn">Send Appointment now</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  </div>
+  </section>
+
+  <section id="contact">
+
+    <h1>Contact</h1>
+    <div class="google-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.2899184774856!2d10.141373938038306!3d5.954735029539107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105f163f197297f1%3A0x3920351e593caf10!2sBamenda%20Regional%20Hospital!5e0!3m2!1sen!2sus!4v1733796031173!5m2!1sen!2sus"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="container">
+      <div class="contact-box">
+        <div class="cbbl">
+          <div class="address c">
+            <i class="fas fa-map-marker-alt"></i>
+            <h4>Address</h4>
+            <p> Bamenda General hospital</p>
+          </div>
+          <div class="number c">
+            <i class="fas fa-phone"></i>
+            <h4>Call us</h4>
+            <p>+237 81388519</p>
+          </div>
+          <div class="email c">
+            <i class="fas fa-mail-bulk"></i>
+            <h4>Email us</h4>
+            <p>tanducare@gmail.com</p>
+          </div>
+        </div>
+        <div class="cbbr">
+          <div class="contact-form c">
+            <h4>Get in Touch</h4>
+            <form action="" class="form-con">
+              <input class="in" type="text" name="" id="" placeholder="Your Name">
+              <input class="in" type="email" name="" id="" placeholder="Your Email">
+              <input class="in" type="text" placeholder="Subject">
+              <textarea class="in" rows="4" cols="20"></textarea>
+              <input class="in" type="button" value="Send Message" placeholder="Message">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="fl">
+          <img src="./Images/logo.png" alt="">
+          <p>Your Health Is Our <span>Priority</span></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, natus.</p>
+        </div>
+        <div class="fc">
+          <p>Important <span>links</span></p>
+          <ul class="footer-links">
+            <li><a href="">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#departments">Department</a></li>
+            <li><a href="#doctors">Doctors</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="fr">
+          <p>Contact <span>Us</span>
+          <div><i class="fas fa-phone"></i><span class="unb">+237 68138851</span></div>
+          </p>
+        </div>
+      </div>
+
+      <p>copyright &copy; Tandu<span>Care</span> 2024</p>
+    </div>
+  </footer>
+</body>
+
+</html>
